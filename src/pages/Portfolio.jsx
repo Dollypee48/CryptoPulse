@@ -3,6 +3,7 @@ import { PortfolioContext } from "../contexts/PortfolioContext";
 import { CryptoContext } from "../contexts/CryptoContext";
 import PortfolioAddForm from "../components/PortfolioAddForm";
 import PortfolioTable from "../components/PortfolioTable";
+import Header from "../components/Header";  // Import the Header component
 
 export default function Portfolio() {
   const { portfolio } = useContext(PortfolioContext);
@@ -10,7 +11,10 @@ export default function Portfolio() {
 
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors">
-      <div className="container mx-auto p-4">
+      {/* Add Header component here */}
+      <Header />
+      
+      <div className="container mx-auto p-4 pt-6"> {/* Added pt-6 for spacing below header */}
         <h1 className="text-2xl font-bold mb-6 dark:text-white">Your Portfolio</h1>
         
         {portfolio.length === 0 ? (

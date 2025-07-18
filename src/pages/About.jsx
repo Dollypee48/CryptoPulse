@@ -8,11 +8,11 @@ export default function About() {
       
       <main className="container mx-auto px-4 py-12">
         <div className="max-w-3xl mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-md p-8">
-          <h1 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">About CryptoPulse</h1>
+          <h1 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">About TradeSentry</h1>
           
           <div className="prose dark:prose-invert text-white">
             <p className="mb-4">
-              CryptoPulse is a real-time cryptocurrency tracking dashboard designed to give you 
+               TradeSentry is a real-time cryptocurrency tracking dashboard designed to give you 
               instant access to market data and portfolio insights.
             </p>
             

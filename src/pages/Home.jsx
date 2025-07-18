@@ -7,7 +7,7 @@ export default function Home() {
         Track Crypto Markets in <span className="text-yellow-400">Real-Time</span>
       </h1>
       <p className="text-xl mb-8 text-center max-w-2xl">
-        CryptoPulse delivers live prices, trends, and analytics for 1000+ cryptocurrencies.
+         TradeSentry delivers live prices, trends, and analytics for 1000+ cryptocurrencies.
       </p>
       <Link
         to="/dashboard"
